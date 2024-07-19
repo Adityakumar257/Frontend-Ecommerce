@@ -1,0 +1,80 @@
+.NewsLetter{
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    gap: 30px;
+
+}
+.NewsLetter h1{
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+
+}
+.NewsLetter p{
+    color: #454545;
+    font-size: 20px;
+}
+.NewsLetter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+.NewsLetter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161; 
+    font-family: poopins;
+    font-size: 16px;
+
+}
+
+.NewsLetter div button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+@media (max-width:500px) {
+    .NewsLetter{
+        margin-top: -5rem;
+        height: 25vh;
+        width: 100%;
+        padding: 0;
+        gap: 15px;
+    }
+    .NewsLetter h1{
+        font-size: 16px;
+    }
+    .NewsLetter p{
+        font-size: 13px;
+        max-width: 200px;
+        text-align: center;
+    }
+    .NewsLetter div{
+        width: 290px;
+    }
+    .NewsLetter div input{
+        width: 130px;
+    }
+    
+}

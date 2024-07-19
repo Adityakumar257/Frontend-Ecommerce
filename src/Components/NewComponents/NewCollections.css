@@ -1,0 +1,49 @@
+
+
+.NewCollections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 100px;
+}
+
+.NewCollections h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight:600;
+}
+.NewCollections hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.collections{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 3rem;
+    margin-left: 4rem;
+    
+}
+.collections img{
+    height: 12rem;
+    width: 15rem;
+}
+@media(max-width:500px){
+    .collections{
+        margin-top: 1rem;
+         display: grid;
+        grid-template-columns: 1fr 1fr; 
+        margin-right: 4rem;
+    }
+    .collections img{
+        height: 8rem;
+        width: 10rem;
+    }
+    .NewCollections h1{
+        margin-top: -5rem;
+    }
+}
